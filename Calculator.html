@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        #MainContainer{
+            width: 95vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: rows;
+            background-color: black;
+
+        }
+        #left{
+            width: 30vw;
+            height: 100vh;
+        }
+        #right{
+            width: 65vw;
+            height: 100vh;
+        }
+        #Content{
+            width: 50vw;
+            height: 65vh;
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+        #Phone{
+            width: 26vw;
+            height: 95vh;
+            border: 2px solid whitesmoke;
+            margin-top: 2vh;
+            margin-left: 5vh;
+            border-radius: 5%;
+        }
+        #Buildan{
+            font-size: 50px;
+            color: white;
+        }
+        #iPhone{
+            font-size: 90px;
+            color: white;
+        }
+        #calculator{
+            font-size: 90px;
+            color: white;
+        }
+        #in{
+            font-size: 90px;
+            color: white;
+            display: flex;
+            flex-direction: row;
+        }
+        #JS{
+            font-size: 90px;
+            color: yellow;
+            display: flex;
+            flex-direction: row;
+            margin-left: 3.5%;
+        }
+        p{
+            margin-top: 0%;
+            margin-bottom: 0%;
+        }
+        #TitleBar{
+            height: 2vh;
+            width: 25vw;
+            margin-top: 1%;
+            margin-left: 1%;
+            display: flex;
+            flex-direction: row;
+        }
+        #Screen{
+            height: 20vh;
+            width: 25vw;
+            margin-top: 1%;
+            margin-left: 1%;
+        }
+        #Number{
+            height: 10vh;
+            width: 25vw;
+            margin-top: 1%;
+            margin-left: 1%;
+            color: white;
+            text-align: right;    
+        }
+        h1{
+            font-size: 60px;
+            margin-top: 1%;
+            
+        }
+        #Keypad{
+            height: 50vh;
+            width: 25vw;
+            margin-top: 1%;
+            margin-left: 1%;
+        }
+        #Bottom{
+            height: 6vh;
+            width: 25vw;
+            margin-top: 1%;
+            margin-left: 1%;
+        }
+        #White{
+            height: 1vh;
+            width: 10vw;
+            background-color: white;
+            margin-top: 7vh;
+            margin-left: 7vw;
+        }
+        h6{
+            color: white;
+            margin-top: 0%;
+            display: flex;
+            flex-direction: row;
+        }
+        #Battery{
+            width: 1vw;
+            height: 1vh;
+            background-color: white;
+            margin-left: 89%;
+            margin-top: 1%;
+        }
+        #Box1,#Box2,#Box3,#Box4,#Box5{
+            height: 10vh;
+            width: 25vw;
+            display: flex;
+            flex-direction: row;
+        }
+        #B{
+            width: 5vw;
+            height: 8.5vh;
+            background-color: white;
+            border-radius: 50%;
+            margin-left: 15px;
+            margin-top: 3px;
+
+        }
+        #C{
+            width: 5vw;
+            height: 8.5vh;
+            background-color: yellow;
+            border-radius: 50%;
+            margin-left: 15px;
+            margin-top: 3px;
+        }
+        #A{
+            width: 10vw;
+            height: 8.5vh;
+            background-color: rgba(23, 23, 23, 0.728);
+            border-radius: 10%;
+            margin-left: 15px;
+            margin-top: 3px;
+            color: white;
+        }
+        
+        #D{
+            width: 5vw;
+            height: 8.5vh;
+            background-color: rgba(23, 23, 23, 0.728);
+            border-radius: 50%;
+            margin-left: 28px;
+            margin-top: 3px; 
+            color: white;
+        }
+        #E{
+            width: 5vw;
+            height: 8.5vh;
+            background-color: yellow;
+            border-radius: 50%;
+            margin-left: 16px;
+            margin-top: 3px;
+        } 
+        #F{
+            width: 5vw;
+            height: 8.5vh;
+            background-color: rgba(23, 23, 23, 0.728);
+            border-radius: 50%;
+            margin-left: 15px;
+            margin-top: 3px; 
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="MainContainer">
+        <div id="left">
+            <div id="Phone">
+                <div id="TitleBar">
+                    <h6>6:15</h6>
+                    <div id="Battery"></div>
+                 <!--   <div id="Wifi"><img src="https://th.bing.com/th/id/R.a02c0b5f22e70aa60b84c8af268788d3?rik=mpToHupHDJwPKg&riu=http%3a%2f%2fecx.images-amazon.com%2fimages%2fI%2f41PJas7dyQL._SY300_.jpg&ehk=hD5ucO0Og7%2fnU29m48RhznxwpEwAVq7%2bbeQC7k4nro8%3d&risl=&pid=ImgRaw&r=0" height="15" width="15"></div>-->
+                </div>
+                <div id="Screen"></div>
+                <div id="Number">
+                    <h1>1,337.3</h1>
+                </div>
+                <div id="Keypad">
+                    <div id="Box1">
+                        <button id="B">AC</button>
+                        <button id="B">+/-</button>
+                        <button id="B">%</button>
+                        <button id="C">/</button>
+                    </div>
+                    <div id="Box2">
+                        <button id="F">7</button>
+                        <button id="F">8</button>
+                        <button id="F">9</button>
+                        <button id="C">X</button>
+                    </div>
+                    <div id="Box3">
+                        <button id="F">4</button>
+                        <button id="F">5</button>
+                        <button id="F">6</button>
+                        <button id="C">-</button>
+                    </div>
+                    <div id="Box4">
+                        <button id="F">1</button>
+                        <button id="F">2</button>
+                        <button id="F">3</button>
+                        <button id="C">+</button>
+                    </div>
+                    <div id="Box5">
+                        <button id="A">0</button>
+                        <button id="D">.</button>
+                        <button id="E">=</button>
+                    </div>
+                </div>
+                <div id="Bottom">
+                    <div id="White"></div>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <div id="Content">
+                <p id="Buildan">Build an</p>
+                <p id="iPhone">iPhone</p>
+                <p id="calculator">Calculator</p>
+                <div id="in"><p>in</p>
+                <div id="JS"><b>Javascript</b></div></div>
+            </div>
+        </div>
+        
+    </div>
+   
+</body>
+</html>

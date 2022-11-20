@@ -1,0 +1,86 @@
+#mainContainer{
+    width:1200px ;
+    height: 600px ;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+#left{
+    width: 850px ;
+    background-color: white;
+}
+#right{
+    width: 350px ;
+    background-color: rgb(56, 186, 56);
+}
+h1{
+    font-size: 50px;
+    padding-left: 23%;
+    padding-top: 60px;
+    padding-bottom: 0%;
+}
+h3{
+    color: gray;
+    padding-left: 36% ;
+}
+#SocialMedia{
+    padding-left: 40% ;  
+}
+h6 {
+    display: flex;
+    flex-direction: row;
+    color: gray;
+}
+  
+h6:before,
+h6:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid grey;
+    margin: auto;
+}
+
+input {
+    width: 50%;
+    height: 70% ;
+    margin-top: 10px;
+    margin-left: 200px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-color: gray;
+    border-radius: 20px;
+}
+
+#SignIn {
+    background-color: green;
+    color: white;
+    margin-left: 42.5%;
+    margin-top: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20%;
+}
+h2{
+    font-size: 47px;
+    padding-left: 20%;
+    padding-top: 50%;
+    color: whitesmoke;
+}
+h4{
+    font-size: medium;
+    padding-left: 23%;
+    color: whitesmoke;
+}
+#SignUp{
+    background-color: whitesmoke;
+    color: black;
+    margin-left: 35%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
+    border-color: green;
+    border-radius: 20%;
+}

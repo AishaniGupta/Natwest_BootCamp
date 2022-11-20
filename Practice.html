@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr:nth-child(even){
+            background-color: pink;
+        }
+        tr:nth-child(odd){
+            background-color: gray;
+        }
+        #First p:nth-child(2n){
+            color: red;
+        }
+        #Secand{
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            row-gap: 5px;
+            column-gap: 5px;
+        }
+        #Third{
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+        }
+        #First button:nth-child(odd){
+            background-color: pink;
+        }
+        #First button:nth-child(even){
+            background-color: grey;
+        }
+        #g{
+            height: 50vh;
+            width: 50vh;
+            background-image: linear-gradient(to left , violet, indigo, blue, green, yellow, orange, red  );
+        }
+    </style>
+</head>
+<body>
+   <!-- <table>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Campus</th>
+        <th>Home Campus</th>
+        <tr>
+            <td>Aishani</td>
+            <td>Female</td>
+            <td>Pune</td>
+            <td>Delhi</td>
+        </tr>
+        <tr>
+            <td>Guriya</td>
+            <td>Female</td>
+            <td>Pune</td>
+            <td>Delhi</td>
+        </tr>
+    </table>
+    <div id="First">
+        <p>Hi</p>
+        <p>Hello</p>
+        <h5>Hey</h5>
+        <p>Hiiii</p>
+        <h5>Namastey</h5>
+    </div>
+    <div id="Secand">
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+    </div>
+    <div id="Third">
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+        <button>A</button>
+    </div> -->
+    <div id="g"></div>
+</body>
+</html>

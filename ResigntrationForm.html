@@ -1,0 +1,146 @@
+<!--
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resigntration Form</title>
+    <link rel="stylesheet" href="ResigntrationForm.css">
+</head>
+<body>
+    <div id="mainBody"> 
+        <div id="top">
+            <h1>Resigntration Form</h1>
+        </div>
+        <div id="leftForm">
+            <h3>Student's Name</h3>
+            <h3>Father's Name </h3>
+            <h3>Mother's Name </h3>
+            <h3>Date of Birth </h3>
+            <h3>Gender </h3>
+            <h3>Email ID </h3>
+            <h3>Mobile Number </h3>
+            <h3>State </h3>
+            <h3>City</h3>
+            <h3>     </h3>
+        </div>
+
+
+        <div id="rightForm">
+            <h3><input type="text"></h3>
+            <h3><input type="text"></h3>
+            <h3><input type="text"></h3>
+            <h3><input type="date"></h3>
+            <input type="radio" id="Male" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" value="Female">
+            <label for="Female">Female</label><br>
+            <h3><input type="email"></h3>
+            <h3><input type="number"></h3>
+            <select name="State" id="State">
+                <option value="Delhi">Delhi</option>
+                <option value="Maharastra">Maharastra</option>
+                <option value="West Bengal">West Bengal</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+            </select><br>
+            <select name="City" id="City">
+                <option value="New Delhi">New Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Benglore">Benglore</option>
+            </select>
+        </div>
+        <div id="Submit">
+            <button type="button">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,tr,td{
+            width: 300px;
+            height: 30px;
+            border: 1px double black;
+        }
+        th{
+            width:fit-content;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <th>Registration Form </th>
+        <tr>
+            <td>Student's Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Father's Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Mother's Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" id="Male" value="Male">
+                <label for="Male">Male</label>
+                <input type="radio" id="Female" value="Female">
+                <label for="Female">Female</label> </td>
+        </tr>
+        <tr>
+            <td>Email ID</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><input type="textbox"></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><select name="State" id="State">
+                <option value="Delhi">Delhi</option>
+                <option value="Maharastra">Maharastra</option>
+                <option value="West Bengal">West Bengal</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+            </select> </td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><select name="City" id="City">
+                <option value="New Delhi">New Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Benglore">Benglore</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><button type="button">Submit</button></td>
+        </tr>
+    </table>
+</body>
+</html>

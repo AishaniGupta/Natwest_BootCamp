@@ -1,0 +1,25 @@
+#mainBody{
+    height:600px ;
+    width: 500px ;
+    border: 10px double black ;
+    border-radius: 10% ;
+    
+}
+#top{
+    align-items: center ;
+    margin-left: 25% ;
+    margin-top: 0% ;
+}
+#leftForm{
+    margin-left: 25px ;
+    margin-top: 10px ;
+    float: left;
+}
+#rightForm{
+    margin-right: 50 px;
+    float: right;
+    
+}
+#Submit{
+    float:bottom;
+}
